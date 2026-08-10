@@ -1,0 +1,89 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Academic homepage">
+    <title>[Your Name]</title>
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+  </head>
+  <body>
+    <table style="width:100%;max-width:800px;border:0;border-spacing:0;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+      <tr style="padding:0">
+        <td style="padding:0">
+          <!-- This first table is kept in the original Jon Barron template layout. -->
+          <table style="width:100%;border:0;border-spacing:0;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+            <tr style="padding:0">
+              <td style="padding:2.5%;width:63%;vertical-align:middle">
+                <p class="name" style="text-align:center;">[Your Name]</p>
+                <p>
+                  [Write your academic biography here. Introduce your current role,
+                  institution, advisor or lab, and the problems you work on.]
+                </p>
+                <p style="text-align:center;">
+                  <a href="mailto:your.email@university.edu">Email</a> &nbsp;/&nbsp;
+                  <a href="data/CV.pdf">CV</a> &nbsp;/&nbsp;
+                  <a href="https://scholar.google.com/">Scholar</a> &nbsp;/&nbsp;
+                  <a href="https://github.com/YOUR-USERNAME">GitHub</a> &nbsp;/&nbsp;
+                  <a href="https://suhao07.github.io/">Blog</a>
+                </p>
+              </td>
+              <td style="padding:2.5%;width:37%;max-width:37%;vertical-align:middle">
+                <!-- Add your own file at images/profile.jpg, or delete this entire cell. -->
+                <img style="width:100%;max-width:100%;object-fit:cover;border-radius:50%;" alt="Profile photo placeholder" src="images/profile.jpg" class="hoverZoomLink">
+              </td>
+            </tr>
+          </tbody></table>
+
+          <table style="width:100%;border:0;border-spacing:0;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+            <tr>
+              <td style="padding:16px;width:100%;vertical-align:middle">
+                <h2>Research</h2>
+                <p>[Describe your research interests. The original template uses a short research paragraph above the publication list.]</p>
+              </td>
+            </tr>
+          </tbody></table>
+
+          <!-- Copy this row for each paper. Add only images you own to images/. -->
+          <table style="width:100%;border:0;border-spacing:0;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+            <tr onmouseout="paper_one_stop()" onmouseover="paper_one_start()">
+              <td style="padding:16px;width:20%;vertical-align:middle">
+                <div class="one">
+                  <div class="two" id="paper_one_image"></div>
+                  <span class="placeholder-thumbnail">Add paper<br>thumbnail</span>
+                </div>
+                <script type="text/javascript">
+                  function paper_one_start() { document.getElementById('paper_one_image').style.opacity = '1'; }
+                  function paper_one_stop() { document.getElementById('paper_one_image').style.opacity = '0'; }
+                  paper_one_stop();
+                </script>
+              </td>
+              <td style="padding:8px;width:80%;vertical-align:middle">
+                <a href="#"><span class="papertitle">[Paper title]</span></a>
+                <br>
+                [Author list; use <strong>bold text</strong> for your own name.]
+                <br>
+                <em>[Conference or journal]</em>, [Year]
+                <br>
+                <a href="#">paper</a> /
+                <a href="#">project page</a> /
+                <a href="#">code</a>
+                <p>[Optional one- or two-sentence paper summary.]</p>
+              </td>
+            </tr>
+          </tbody></table>
+
+          <table style="width:100%;border:0;border-spacing:0;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+            <tr>
+              <td style="padding:0">
+                <br>
+                <p style="text-align:right;font-size:small;">Template from <a href="https://jonbarron.info/">Jon Barron</a>.</p>
+              </td>
+            </tr>
+          </tbody></table>
+        </td>
+      </tr>
+    </tbody></table>
+  </body>
+</html>
+
